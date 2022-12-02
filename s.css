@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    padding: 20px 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo svg{
+    fill:#1ce783;
+}
+.login{
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.login:hover{
+    background: block;
+    background-color: rgba(104, 103, 103, 0.637);
+    color: white;
+}
+.menu
+{
+    padding: 10px;
+    background-color:rgba(104, 103, 103, 0.637) ;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
+}
+.container{
+    background-image: url(main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color:black;*/
+    height: 100vh; 
+    /*position: absolute;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    padding: 2%;
+    background:none;
+    color: white;
+   /* position: relative;*/
+    text-align: center;
+    width: 60%;
+    
+    
+}
+.text svg{
+    margin-top: 20px;
+    fill: #1ce783;
+    transform: scale(200%);
+    margin-bottom: 3%;
+}
+.text h1{
+    color: #1ce783;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 2%;
+    
+}
+.text h2{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+.text h3{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.text p{
+    padding: 4%;
+    color:white;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+.text h6{
+    width: 80%;
+    font-size: 9px;
+    font-weight: 400;
+    color: grey;
+    margin-left: 10%;
+}
+.deal{
+    width: 98%;
+    height: 50px;
+    background-color: #1ce783;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+/*dabba*/
+.logo_section{
+    width: 100%;
+    background-color:rgb(51, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.logo_section .logo-texts h6{
+    font-weight: 100;
+    padding: 8px;
+}
+.logo_section .logo-texts p{
+    font-weight: 400;
+}
+.logo_section .signup-btn{
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.logo_section .signup-btn:hover{
+    background-color: white;
+    color: black;
+}
+.logo_section .TERMS p{
+    text-decoration:underline;
+    font-size: 12px;
+}
+
+/*category*/
+
+   .category-main{
+    width: 100%;
+    background-color:#0b0c0f;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 70px;
+    
+   }
+   .category-main h3{
+    
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .category-main p{
+    color: #1ce783;
+    font-size: 15px;
+}
+.category-main h1{
+    font-size: 45px;
+}
+   .category-main .category-class{
+    
+    background-color: #0b0c0f;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align:left;
+    line-height: 30px;
+    
+   }
+   .category-main .category-box{
+    height: 450px;
+    width: 280px;
+    border: 1px solid black;
+    background-color: grey;
+    margin: 7px;
+    background-size: cover;
+    
+    
+   }
+   .category-class .category-box p{
+    color: white;
+    margin-left: 30px;
+    font-size: 12px;
+   }
+
+   .category-box h4{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+   }
+.category-class .category-box:first-child{
+    background-image: url(./images/tvshows.jpg);
+}
+.category-main .category-box:nth-child(2){
+    background-image: url(./images/movies.jpg);
+}
+.category-main .category-box:nth-child(3){
+    background-image: url(./images/original.jpg);
+}
+.category-main .category-box:last-child{
+    background-image: url(./images/pre.jpg);
+}
+.category-main h5{
+    text-align: right;
+    font-weight: 200;
+    font-size: 10px;
+    color: grey;
+    margin-right: 5%;
+    padding-top: 0%;
+}
+
+/*HULU-TEXT*/
+
+.hulu-text{
+    background-color: #0b0c0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.hulu-text .text-area{
+    background-color:#0b0c0f;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    
+}
+.hulu-text p{
+    color: #1ce783;
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+.hulu-text h1{
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+.hulu-text h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3%;
+    padding: 10px 180px;
+}
+.hulu-text a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* live section */
+.live-container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-image: url();
+}
+.live-container .live-text-section{
+    width: 50%;
+    color: white;
+    
+}
+.live-text-section .live-bar{
+    font-size: 12px;    
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-bottom: 4%;
+    
+}
+.live-text-section h1{
+    font-size: 45px;
+    margin-bottom: 4%;
+}
+.live-text-section p{
+    margin-bottom: 4%;
+}
+.live-text-section .live-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+.live-text-section .live-box{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: 10px;
+    border-radius: 25px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+ .live-text-section .atag a{
+    color: rgb(189, 189, 189);
+} 
+.live-text-section .atag h6{
+    font-weight: 400;
+    font-size: 10px;
+    color: rgb(189, 189, 189);
+}
+ .live-box:first-child{
+    background-image: url(./images/live1.png);
+}
+.live-box:nth-child(2){
+    background-image: url(./images/live2.png);
+}
+.live-box:nth-child(3){
+    background-image: url(./images/live3.svg);
+}
+.live-box:last-child{
+    background-image: url(./images/live4.png);
+}
+
+/*media queries*/
+
+@media(max-width:768px){
+    .login{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .text h6{
+        font-size: 8px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h2{
+        font-size: 30px;
+    }
+    .text h3{
+        font-size: 15px;
+    }
+    .logo_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_section img{
+        height: 30%;
+    }
+}
