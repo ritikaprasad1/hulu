@@ -266,7 +266,7 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 100px;
-    background-image: url();
+    background-image: url(./images/live.jpg);
 }
 .live-container .live-text-section{
     width: 50%;
